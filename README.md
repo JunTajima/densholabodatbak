@@ -2,17 +2,16 @@
 
 **研究発表**
 
-[研究発表データダウンロード](https://www.dropbox.com/scl/fi/jjkm0ihj0w5x9pqajzqjz/.zip?rlkey=qegp5zgayeen3r1mw4blcssx8&dl=0 "研究発表.zip")
+[［研究発表］データ](https://www.dropbox.com/scl/fi/jjkm0ihj0w5x9pqajzqjz/.zip?rlkey=qegp5zgayeen3r1mw4blcssx8&dl=0 "研究発表.zip")
 
-[電書ラボ制作仕様見出しテンプレート（横）](https://www.dropbox.com/scl/fi/qvqc4m2a4aevf7y6ipc4f/v1.0.xhtml?rlkey=slnqpjekezbcou29whl84l8y4&dl=0 "電書ラボ制作仕様見出しテンプレート（横）")
-
-[電書ラボ制作仕様見出しテンプレート（縦）](https://www.dropbox.com/scl/fi/drk4aswks2r0a7o33eysv/v1.0.xhtml?rlkey=ojgpsg8vxmadc6rzqvj3o5n0e&dl=0 "電書ラボ制作仕様見出しテンプレート（縦）")
+<a href="./電書ラボ制作仕様見出しテンプレート v1.0横.xhtml">電書ラボ制作仕様見出しテンプレート（横）</a>
+<a href="./電書ラボ制作仕様見出しテンプレート v1.0縦.xhtml">電書ラボ制作仕様見出しテンプレート（縦）</a>
 
 ※見出しテンプレートは自分が使うので別にリンクを置いておく
 
 **資料保存庫**
 
-[資料保存庫データダウンロード](https://www.dropbox.com/scl/fi/4maacxyojmznlr3tir0qk/.zip?rlkey=vy9kjd75n62oedmdrdx1z3f5w&dl=0 "資料保存庫.zip")
+[［資料保存庫］データ](https://www.dropbox.com/scl/fi/4maacxyojmznlr3tir0qk/.zip?rlkey=vy9kjd75n62oedmdrdx1z3f5w&dl=0 "資料保存庫.zip")
 
 
 
