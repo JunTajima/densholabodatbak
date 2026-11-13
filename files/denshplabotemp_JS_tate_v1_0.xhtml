@@ -1,0 +1,1217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" class="hltr">
+<head>
+  <meta charset="UTF-8" />
+<!-- <link rel="stylesheet" type="text/css" href="../style/book-style.css" /> -->
+<title>電書ラボ制作仕様見出しテンプレート v1.0</title>
+
+<style type="text/css">
+body {
+  font-family: serif-ja, serif;
+}
+.hltr {
+  -webkit-writing-mode: horizontal-tb;
+  writing-mode:   horizontal-tb;
+  -ms-writing-mode: lr-tb;
+}
+.vrtl {
+  -webkit-writing-mode: vertical-rl;
+  writing-mode:   vertical-rl;
+  -ms-writing-mode: tb-rl;
+}
+h1{
+  font-size:1.30em;
+}
+  .bold {
+  font-weight: bold;
+}
+  .red {
+  color: #ff0000;
+}
+.box {
+  display:table;
+  width:100%;
+}
+.box-cell {
+  display:table-cell;
+  padding:0.5em;
+  width:33.3%;
+}
+.big {
+  font-size:1.30em;
+}
+.small {
+  font-size:0.70em;
+}
+.hindent {
+  text-indent:  -2em;
+  padding-left:  2.5em; 
+}
+.title {
+  text-align:center;
+  background-color:#999999;
+  color:#ffffff;
+  font-size:1.10em;
+  font-weight:bold
+}
+</style>
+
+</head>
+<body>
+<p><a href="denshplabotemp_JS_yoko_v1_0.xhtml">横組の指定はこちら</a></p>
+<h1>電書ラボ制作仕様見出しテンプレート v1.0（縦）</h1>
+<hr />
+
+<p class="title">各見出しへの指定内容</p>
+
+<div class="box">
+<div class="box-cell hindent">
+<p class="bold big">大見出し</p>
+<p>
+<label for="oo-midashi-fonttypeweight"><span class="bold">A：フォントの種類・太字細字：</span></label>
+<select id="oo-midashi-fonttypeweight" name="oo-midashi-fonttypeweight">
+<option value="normalmin">1：並字明朝</option>
+<option value="boldmin">2：太字明朝</option>
+<option value="normalgothic">3：並字ゴシック</option>
+<option value="boldgothic">4：太字ゴシック</option>
+</select>
+</p>
+<p>
+<label for="oo-midashi-fontsize"><span class="bold">B：本文に対しての文字のサイズ：</span></label>
+<select id="oo-midashi-fontsize" name="oo-midashi-fontsize">
+<option value="font-090per">1：90％</option>
+<option value="font-100per">2：100％</option>
+<option value="font-110per">3：110％</option>
+<option value="font-120per">4：120％</option>
+<option value="font-130per">5：130％</option>
+<option value="font-140per">6：140％</option>
+<option value="font-150per">7：150％</option>
+<option value="font-160per">8：160％</option>
+<option value="font-170per">9：170％</option>
+<option value="font-180per">10：180％</option>
+<option value="font-190per">11：190％</option>
+<option value="font-200per">12：200％</option>
+<option value="font-250per">13：250％</option>
+<option value="font-300per">14：300％</option>
+</select>
+</p>
+<p>
+<label for="oo-midashi-fontcolor"><span class="bold">C：文字色：</span></label>
+<select id="oo-midashi-fontcolor" name="oo-midashi-fontcolor">
+<option value="color-none">1：指定なし</option>
+<option value="color-black">2：黒</option>
+<option value="color-dimgray">3：K59グレー（dimgray: #696969）</option>
+<option value="color-gray">4：K50グレー（gray: #808080）</option>
+<option value="color-darkgray">5：K34グレー（darkgray: #a9a9a9）</option>
+<option value="color-silver">6：K25グレー（silver: #c0c0c0）</option>
+<option value="color-gainsboro">7：K14グレー（gainsboro:#dcdcdc）</option>
+<option value="color-white">8：白（white: #ffffff）</option>
+<option value="color-red">9：赤（red: #ff0000）</option>
+<option value="color-blue">10：青（blue: #0000ff）</option>
+<option value="color-cyan">11：シアン（cyan: #00ffff）</option>
+<option value="color-magenta">12：マゼンタ（cyan: #ff00ff）</option>
+<option value="color-orangered">13：朱色（orangered: #ff4500）</option>
+</select>
+</p>
+<p>
+<label for="oo-midashi-linetype"><span class="bold">D：罫線の種類：</span></label>
+<select id="oo-midashi-linetype" name="oo-midashi-linetype">
+<option value="none">1：罫線なし</option>
+<option value="solid">2：通常の罫線</option>
+<option value="double">3：ダブル罫線</option>
+<option value="dashed">4：破線</option>
+<option value="dotted">5：点線</option>
+</select>
+</p>
+<p>
+<label for="oo-midashi-linecolor"><span class="bold">E：罫線の色：</span></label>
+<select id="oo-midashi-linecolor" name="oo-midashi-linecolor">
+<option value="linecolor-none">1：罫線なし</option>
+<option value="linecolor-black">2：黒</option>
+<option value="linecolor-dimgray">3：K59グレー（dimgray: #696969）</option>
+<option value="linecolor-gray">4：K50グレー（gray: #808080）</option>
+<option value="linecolor-darkgray">5：K34グレー（darkgray: #a9a9a9）</option>
+<option value="linecolor-silver">6：K25グレー（silver: #c0c0c0）</option>
+<option value="linecolor-gainsboro">7：K14グレー（gainsboro: #dcdcdc）</option>
+<option value="linecolor-white">8：白（white: #ffffff）</option>
+<option value="linecolor-red">9：赤（red: #ff0000）</option>
+<option value="linecolor-blue">10：青（blue: #0000ff）</option>
+<option value="linecolor-cyan">11：シアン（cyan: #00ffff）</option>
+<option value="linecolor-magenta">12：マゼンタ（cyan: #ff00ff）</option>
+<option value="linecolor-orangered">13：朱色（orangered: #ff4500）</option>
+</select>
+</p>
+
+<p>
+<label for="oo-midashi-linewidth"><span class="bold">F：罫線の太さ：</span></label>
+<select id="oo-midashi-linewidth" name="oo-midashi-linewidth">
+<option value="linewidth-none">1：罫線なし</option>
+<option value="linewidth-L1S1">2：1ピクセル</option>
+<option value="linewidth-L2S2">3：2ピクセル</option>
+<option value="linewidth-L4S4">4：4ピクセル</option>
+<option value="linewidth-L1S4">5：長辺1ピクセル短辺4ピクセル</option>
+</select>
+</p>
+
+<p>
+<label for="oo-midashi-lineposition"><span class="bold">G：罫線の配置位置：</span></label>
+<select id="oo-midashi-lineposition" name="oo-midashi-lineposition">
+<option value="kposition-none">1：罫線なし</option>
+<option value="kposition-TBLR">2：文字の上下左右に罫線</option>
+<option value="kposition-TLR">3：文字の上左右に罫線</option>
+<option value="kposition-LR">4：文字の左右に罫線</option>
+<option value="kposition-TB">5：文字の上下に罫線</option>
+<option value="kposition-TL">6：文字の上左に罫線</option>
+<option value="kposition-TR">7：文字の上右に罫線</option>
+<option value="kposition-T">8：文字の上に罫線</option>
+<option value="kposition-R">9：文字の右に罫線</option>
+<option value="kposition-L">10：文字の左に罫線</option>
+<option value="kposition-TBLR-round">11：文字の上下左右に角丸罫線</option>
+<option value="kposition-TR-round">12：文字の上右に角丸罫線</option>
+</select>
+</p>
+
+<p>
+<label for="oo-midashi-bgcolor"><span class="bold">H：背景色：</span></label>
+<select id="oo-midashi-bgcolor" name="oo-midashi-bgcolor">
+<option value="bgcolor-transparent">1：背景色なし</option>
+<option value="bgcolor-black">2：黒</option>
+<option value="bgcolor-dimgray">3：K59グレー（dimgray: #696969）</option>
+<option value="bgcolor-gray">4：K50グレー（gray: #808080）</option>
+<option value="bgcolor-darkgray">5：K34グレー（darkgray: #a9a9a9）</option>
+<option value="bgcolor-silver">6：K25グレー（silver: #c0c0c0）</option>
+<option value="bgcolor-gainsboro">7：K14グレー（gainsboro: #dcdcdc）</option>
+<option value="bgcolor-white">8：白（white: #ffffff）</option>
+<option value="bgcolor-red">9：赤（red: #ff0000）</option>
+<option value="bgcolor-blue">10：青（blue: #0000ff）</option>
+<option value="bgcolor-cyan">11：シアン（cyan: #00ffff）</option>
+<option value="bgcolor-magenta">12：マゼンタ（cyan: #ff00ff）</option>
+<option value="bgcolor-orangered">13：朱色（orangered: #ff4500）</option>
+</select>
+</p>
+
+<p>
+<label for="oo-midashi-textalign"><span class="bold">I：行揃え：</span></label>
+<select id="oo-midashi-textalign" name="oo-midashi-textalign">
+<option value="textalign-none">1：指定なし</option>
+<option value="textalign-justify">2：均等揃え</option>
+<option value="textalign-alignleft">3：上揃え</option>
+<option value="textalign-aligncenter">4：中央揃え</option>
+<option value="textalign-alignright">5：下揃え</option>
+</select>
+</p>
+
+<p>
+<label for="oo-midashi-marginstart"><span class="bold">J：行頭字下げ：</span></label>
+<select id="oo-midashi-marginstart" name="oo-midashi-marginstart">
+<option value="marginstart-none">1：行頭字下げなし</option>
+<option value="marginstart-1em">2：行頭1字下げ</option>
+<option value="marginstart-2em">3：行頭2字下げ</option>
+<option value="marginstart-3em">4：行頭3字下げ</option>
+<option value="marginstart-4em">5：行頭4字下げ</option>
+<option value="marginstart-5em">6：行頭5字下げ</option>
+</select>
+</p>
+
+<p><br /></p>
+<p><input type="button" value="以上の設定で大見出しに指定を適用する" onclick="changecss('oo-midashi');return false;" /> </p>
+</div>
+<div class="box-cell hindent">
+<p class="bold big">中見出し</p>
+<p>
+<label for="naka-midashi-fonttypeweight"><span class="bold">A：フォントの種類・太字細字：</span></label>
+<select id="naka-midashi-fonttypeweight" name="naka-midashi-fonttypeweight">
+<option value="normalmin">1：並字明朝</option>
+<option value="boldmin">2：太字明朝</option>
+<option value="normalgothic">3：並字ゴシック</option>
+<option value="boldgothic">4：太字ゴシック</option>
+</select>
+</p>
+<p>
+<label for="naka-midashi-fontsize"><span class="bold">B：本文に対しての文字のサイズ：</span></label>
+<select id="naka-midashi-fontsize" name="naka-midashi-fontsize">
+<option value="font-090per">1：90％</option>
+<option value="font-100per">2：100％</option>
+<option value="font-110per">3：110％</option>
+<option value="font-120per">4：120％</option>
+<option value="font-130per">5：130％</option>
+<option value="font-140per">6：140％</option>
+<option value="font-150per">7：150％</option>
+<option value="font-160per">8：160％</option>
+<option value="font-170per">9：170％</option>
+<option value="font-180per">10：180％</option>
+<option value="font-190per">11：190％</option>
+<option value="font-200per">12：200％</option>
+<option value="font-250per">13：250％</option>
+<option value="font-300per">14：300％</option>
+</select>
+</p>
+<p>
+<label for="naka-midashi-fontcolor"><span class="bold">C：文字色：</span></label>
+<select id="naka-midashi-fontcolor" name="naka-midashi-fontcolor">
+<option value="color-none">1：指定なし</option>
+<option value="color-black">2：黒</option>
+<option value="color-dimgray">3：K59グレー（dimgray: #696969）</option>
+<option value="color-gray">4：K50グレー（gray: #808080）</option>
+<option value="color-darkgray">5：K34グレー（darkgray: #a9a9a9）</option>
+<option value="color-silver">6：K25グレー（silver: #c0c0c0）</option>
+<option value="color-gainsboro">7：K14グレー（gainsboro:#dcdcdc）</option>
+<option value="color-white">8：白（white: #ffffff）</option>
+<option value="color-red">9：赤（red: #ff0000）</option>
+<option value="color-blue">10：青（blue: #0000ff）</option>
+<option value="color-cyan">11：シアン（cyan: #00ffff）</option>
+<option value="color-magenta">12：マゼンタ（cyan: #ff00ff）</option>
+<option value="color-orangered">13：朱色（orangered: #ff4500）</option>
+</select>
+</p>
+<p>
+<label for="naka-midashi-linetype"><span class="bold">D：罫線の種類：</span></label>
+<select id="naka-midashi-linetype" name="naka-midashi-linetype">
+<option value="none">1：罫線なし</option>
+<option value="solid">2：通常の罫線</option>
+<option value="double">3：ダブル罫線</option>
+<option value="dashed">4：破線</option>
+<option value="dotted">5：点線</option>
+</select>
+</p>
+<p>
+<label for="naka-midashi-linecolor"><span class="bold">E：罫線の色：</span></label>
+<select id="naka-midashi-linecolor" name="naka-midashi-linecolor">
+<option value="linecolor-none">1：罫線なし</option>
+<option value="linecolor-black">2：黒</option>
+<option value="linecolor-dimgray">3：K59グレー（dimgray: #696969）</option>
+<option value="linecolor-gray">4：K50グレー（gray: #808080）</option>
+<option value="linecolor-darkgray">5：K34グレー（darkgray: #a9a9a9）</option>
+<option value="linecolor-silver">6：K25グレー（silver: #c0c0c0）</option>
+<option value="linecolor-gainsboro">7：K14グレー（gainsboro: #dcdcdc）</option>
+<option value="linecolor-white">8：白（white: #ffffff）</option>
+<option value="linecolor-red">9：赤（red: #ff0000）</option>
+<option value="linecolor-blue">10：青（blue: #0000ff）</option>
+<option value="linecolor-cyan">11：シアン（cyan: #00ffff）</option>
+<option value="linecolor-magenta">12：マゼンタ（cyan: #ff00ff）</option>
+<option value="linecolor-orangered">13：朱色（orangered: #ff4500）</option>
+</select>
+</p>
+
+<p>
+<label for="naka-midashi-linewidth"><span class="bold">F：罫線の太さ：</span></label>
+<select id="naka-midashi-linewidth" name="naka-midashi-linewidth">
+<option value="linewidth-none">1：罫線なし</option>
+<option value="linewidth-L1S1">2：1ピクセル</option>
+<option value="linewidth-L2S2">3：2ピクセル</option>
+<option value="linewidth-L4S4">4：4ピクセル</option>
+<option value="linewidth-L1S4">5：長辺1ピクセル短辺4ピクセル</option>
+</select>
+</p>
+
+<p>
+<label for="naka-midashi-lineposition"><span class="bold">G：罫線の配置位置：</span></label>
+<select id="naka-midashi-lineposition" name="naka-midashi-lineposition">
+<option value="kposition-none">1：罫線なし</option>
+<option value="kposition-TBLR">2：文字の上下左右に罫線</option>
+<option value="kposition-TBL">3：文字の上下左に罫線</option>
+<option value="kposition-LR">4：文字の左右に罫線</option>
+<option value="kposition-TB">5：文字の上下に罫線</option>
+<option value="kposition-TL">6：文字の上左に罫線</option>
+<option value="kposition-BL">7：文字の下左に罫線</option>
+<option value="kposition-T">8：文字の上に罫線</option>
+<option value="kposition-B">9：文字の下に罫線</option>
+<option value="kposition-L">10：文字の左に罫線</option>
+<option value="kposition-TBLR-round">11：文字の上下左右に角丸罫線</option>
+<option value="kposition-TL-round">12：文字の上左に角丸罫線</option>
+</select>
+</p>
+
+<p>
+<label for="naka-midashi-bgcolor"><span class="bold">H：背景色：</span></label>
+<select id="naka-midashi-bgcolor" name="naka-midashi-bgcolor">
+<option value="bgcolor-transparent">1：背景色なし</option>
+<option value="bgcolor-black">2：黒</option>
+<option value="bgcolor-dimgray">3：K59グレー（dimgray: #696969）</option>
+<option value="bgcolor-gray">4：K50グレー（gray: #808080）</option>
+<option value="bgcolor-darkgray">5：K34グレー（darkgray: #a9a9a9）</option>
+<option value="bgcolor-silver">6：K25グレー（silver: #c0c0c0）</option>
+<option value="bgcolor-gainsboro">7：K14グレー（gainsboro: #dcdcdc）</option>
+<option value="bgcolor-white">8：白（white: #ffffff）</option>
+<option value="bgcolor-red">9：赤（red: #ff0000）</option>
+<option value="bgcolor-blue">10：青（blue: #0000ff）</option>
+<option value="bgcolor-cyan">11：シアン（cyan: #00ffff）</option>
+<option value="bgcolor-magenta">12：マゼンタ（cyan: #ff00ff）</option>
+<option value="bgcolor-orangered">13：朱色（orangered: #ff4500）</option>
+</select>
+</p>
+
+<p>
+<label for="naka-midashi-textalign"><span class="bold">I：行揃え：</span></label>
+<select id="naka-midashi-textalign" name="naka-midashi-textalign">
+<option value="textalign-none">1：指定なし</option>
+<option value="textalign-justify">2：均等揃え</option>
+<option value="textalign-alignleft">3：上揃え</option>
+<option value="textalign-aligncenter">4：中央揃え</option>
+<option value="textalign-alignright">5：下揃え</option>
+</select>
+</p>
+
+<p>
+<label for="naka-midashi-marginstart"><span class="bold">J：行頭字下げ：</span></label>
+<select id="naka-midashi-marginstart" name="naka-midashi-marginstart">
+<option value="marginstart-none">1：行頭字下げなし</option>
+<option value="marginstart-1em">2：行頭1字下げ</option>
+<option value="marginstart-2em">3：行頭2字下げ</option>
+<option value="marginstart-3em">4：行頭3字下げ</option>
+<option value="marginstart-4em">5：行頭4字下げ</option>
+<option value="marginstart-5em">6：行頭5字下げ</option>
+</select>
+</p>
+
+<p><br /></p>
+<p><input type="button" value="以上の設定で中見出しに指定を適用する" onclick="changecss('naka-midashi');return false;" /> </p>
+</div>
+<div class="box-cell hindent">
+<p class="bold big">小見出し</p>
+<p>
+<label for="ko-midashi-fonttypeweight"><span class="bold">A：フォントの種類・太字細字：</span></label>
+<select id="ko-midashi-fonttypeweight" name="ko-midashi-fonttypeweight">
+<option value="normalmin">1：並字明朝</option>
+<option value="boldmin">2：太字明朝</option>
+<option value="normalgothic">3：並字ゴシック</option>
+<option value="boldgothic">4：太字ゴシック</option>
+</select>
+</p>
+<p>
+<label for="ko-midashi-fontsize"><span class="bold">B：本文に対しての文字のサイズ：</span></label>
+<select id="ko-midashi-fontsize" name="ko-midashi-fontsize">
+<option value="font-090per">1：90％</option>
+<option value="font-100per">2：100％</option>
+<option value="font-110per">3：110％</option>
+<option value="font-120per">4：120％</option>
+<option value="font-130per">5：130％</option>
+<option value="font-140per">6：140％</option>
+<option value="font-150per">7：150％</option>
+<option value="font-160per">8：160％</option>
+<option value="font-170per">9：170％</option>
+<option value="font-180per">10：180％</option>
+<option value="font-190per">11：190％</option>
+<option value="font-200per">12：200％</option>
+<option value="font-250per">13：250％</option>
+<option value="font-300per">14：300％</option>
+</select>
+</p>
+<p>
+<label for="ko-midashi-fontcolor"><span class="bold">C：文字色：</span></label>
+<select id="ko-midashi-fontcolor" name="ko-midashi-fontcolor">
+<option value="color-none">1：指定なし</option>
+<option value="color-black">2：黒</option>
+<option value="color-dimgray">3：K59グレー（dimgray: #696969）</option>
+<option value="color-gray">4：K50グレー（gray: #808080）</option>
+<option value="color-darkgray">5：K34グレー（darkgray: #a9a9a9）</option>
+<option value="color-silver">6：K25グレー（silver: #c0c0c0）</option>
+<option value="color-gainsboro">7：K14グレー（gainsboro:#dcdcdc）</option>
+<option value="color-white">8：白（white: #ffffff）</option>
+<option value="color-red">9：赤（red: #ff0000）</option>
+<option value="color-blue">10：青（blue: #0000ff）</option>
+<option value="color-cyan">11：シアン（cyan: #00ffff）</option>
+<option value="color-magenta">12：マゼンタ（cyan: #ff00ff）</option>
+<option value="color-orangered">13：朱色（orangered: #ff4500）</option>
+</select>
+</p>
+<p>
+<label for="ko-midashi-linetype"><span class="bold">D：罫線の種類：</span></label>
+<select id="ko-midashi-linetype" name="ko-midashi-linetype">
+<option value="none">1：罫線なし</option>
+<option value="solid">2：通常の罫線</option>
+<option value="double">3：ダブル罫線</option>
+<option value="dashed">4：破線</option>
+<option value="dotted">5：点線</option>
+</select>
+</p>
+<p>
+<label for="ko-midashi-linecolor"><span class="bold">E：罫線の色：</span></label>
+<select id="ko-midashi-linecolor" name="ko-midashi-linecolor">
+<option value="linecolor-none">1：罫線なし</option>
+<option value="linecolor-black">2：黒</option>
+<option value="linecolor-dimgray">3：K59グレー（dimgray: #696969）</option>
+<option value="linecolor-gray">4：K50グレー（gray: #808080）</option>
+<option value="linecolor-darkgray">5：K34グレー（darkgray: #a9a9a9）</option>
+<option value="linecolor-silver">6：K25グレー（silver: #c0c0c0）</option>
+<option value="linecolor-gainsboro">7：K14グレー（gainsboro: #dcdcdc）</option>
+<option value="linecolor-white">8：白（white: #ffffff）</option>
+<option value="linecolor-red">9：赤（red: #ff0000）</option>
+<option value="linecolor-blue">10：青（blue: #0000ff）</option>
+<option value="linecolor-cyan">11：シアン（cyan: #00ffff）</option>
+<option value="linecolor-magenta">12：マゼンタ（cyan: #ff00ff）</option>
+<option value="linecolor-orangered">13：朱色（orangered: #ff4500）</option>
+</select>
+</p>
+
+<p>
+<label for="ko-midashi-linewidth"><span class="bold">F：罫線の太さ：</span></label>
+<select id="ko-midashi-linewidth" name="ko-midashi-linewidth">
+<option value="linewidth-none">1：罫線なし</option>
+<option value="linewidth-L1S1">2：1ピクセル</option>
+<option value="linewidth-L2S2">3：2ピクセル</option>
+<option value="linewidth-L4S4">4：4ピクセル</option>
+<option value="linewidth-L1S4">5：長辺1ピクセル短辺4ピクセル</option>
+</select>
+</p>
+
+<p>
+<label for="ko-midashi-lineposition"><span class="bold">G：罫線の配置位置：</span></label>
+<select id="ko-midashi-lineposition" name="ko-midashi-lineposition">
+<option value="kposition-none">1：罫線なし</option>
+<option value="kposition-TBLR">2：文字の上下左右に罫線</option>
+<option value="kposition-TBL">3：文字の上下左に罫線</option>
+<option value="kposition-LR">4：文字の左右に罫線</option>
+<option value="kposition-TB">5：文字の上下に罫線</option>
+<option value="kposition-TL">6：文字の上左に罫線</option>
+<option value="kposition-TR">7：文字の上右に罫線</option>
+<option value="kposition-T">8：文字の上に罫線</option>
+<option value="kposition-R">9：文字の右に罫線</option>
+<option value="kposition-L">10：文字の左に罫線</option>
+<option value="kposition-TBLR-round">11：文字の上下左右に角丸罫線</option>
+<option value="kposition-TR-round">12：文字の上右に角丸罫線</option>
+</select>
+</p>
+
+<p>
+<label for="ko-midashi-bgcolor"><span class="bold">H：背景色：</span></label>
+<select id="ko-midashi-bgcolor" name="ko-midashi-bgcolor">
+<option value="bgcolor-transparent">1：背景色なし</option>
+<option value="bgcolor-black">2：黒</option>
+<option value="bgcolor-dimgray">3：K59グレー（dimgray: #696969）</option>
+<option value="bgcolor-gray">4：K50グレー（gray: #808080）</option>
+<option value="bgcolor-darkgray">5：K34グレー（darkgray: #a9a9a9）</option>
+<option value="bgcolor-silver">6：K25グレー（silver: #c0c0c0）</option>
+<option value="bgcolor-gainsboro">7：K14グレー（gainsboro: #dcdcdc）</option>
+<option value="bgcolor-white">8：白（white: #ffffff）</option>
+<option value="bgcolor-red">9：赤（red: #ff0000）</option>
+<option value="bgcolor-blue">10：青（blue: #0000ff）</option>
+<option value="bgcolor-cyan">11：シアン（cyan: #00ffff）</option>
+<option value="bgcolor-magenta">12：マゼンタ（cyan: #ff00ff）</option>
+<option value="bgcolor-orangered">13：朱色（orangered: #ff4500）</option>
+</select>
+</p>
+
+<p>
+<label for="ko-midashi-textalign"><span class="bold">I：行揃え：</span></label>
+<select id="ko-midashi-textalign" name="ko-midashi-textalign">
+<option value="textalign-none">1：指定なし</option>
+<option value="textalign-justify">2：均等揃え</option>
+<option value="textalign-alignleft">3：上揃え</option>
+<option value="textalign-aligncenter">4：中央揃え</option>
+<option value="textalign-alignright">5：下揃え</option>
+</select>
+</p>
+
+<p>
+<label for="ko-midashi-marginstart"><span class="bold">J：行頭字下げ：</span></label>
+<select id="ko-midashi-marginstart" name="ko-midashi-marginstart">
+<option value="marginstart-none">1：行頭字下げなし</option>
+<option value="marginstart-1em">2：行頭1字下げ</option>
+<option value="marginstart-2em">3：行頭2字下げ</option>
+<option value="marginstart-3em">4：行頭3字下げ</option>
+<option value="marginstart-4em">5：行頭4字下げ</option>
+<option value="marginstart-5em">6：行頭5字下げ</option>
+</select>
+</p>
+
+<p><br /></p>
+<p><input type="button" value="以上の設定で小見出しに指定を適用する" onclick="changecss('ko-midashi');return false;" /></p>
+</div>
+
+</div>
+
+<hr />
+
+<p class="title">組み見本プレビュー</p>
+<div class="vrtl" style="height:20em;">
+<h2 id="oo-midashi" value="oo-midashi" contenteditable="true">大見出し</h2>
+<p contenteditable="true">　この文章はサンプルですこの文章はサンプルですこの文章はサンプルですこの文章はサンプルですこの文章はサンプルですこの文章はサンプルですこの文章はサンプルですこの文章はサンプルです</p>
+<h3 id="naka-midashi" value="naka-midashi" contenteditable="true">中見出し</h3>
+<p contenteditable="true">　この文章はサンプルですこの文章はサンプルですこの文章はサンプルですこの文章はサンプルですこの文章はサンプルですこの文章はサンプルですこの文章はサンプルですこの文章はサンプルです</p>
+<h3 id="ko-midashi" value="ko-midashi" contenteditable="true">小見出し</h3>
+<p contenteditable="true">　この文章はサンプルですこの文章はサンプルですこの文章はサンプルですこの文章はサンプルですこの文章はサンプルですこの文章はサンプルですこの文章はサンプルですこの文章はサンプルです</p>
+</div>
+
+<hr />
+
+<p class="title">以下の指定内容を制作会社に伝達</p>
+<!-- 指定後の指定番号の表示スペース -->
+<div class="box">
+<div class="box-cell" id="oo-midashi-specifiednum" />
+<div class="box-cell" id="naka-midashi-specifiednum" />
+<div class="box-cell" id="ko-midashi-specifiednum" />
+</div>
+<hr />
+<p class="title">対応するCSSの記述</p>
+<!-- 指定後のCSSの表示スペース -->
+<div class="box">
+<div class="box-cell" id="oo-midashi-css" />
+<div class="box-cell" id="naka-midashi-css" />
+<div class="box-cell" id="ko-midashi-css" />
+</div>
+<div>
+<hr />
+<p class="title">設定の入出力</p>
+<textarea id="import-export" rows="5" style="width:100%;display:none" />
+<!--<button type="button" onclick="exportConfig()">設定をテキストボックスにコピー</button>-->
+<a id="download" href="http://densholab.jp/lab/template/denshplabotemp_JS_tate_v1_0.xhtml" download="denshotemp_setup_tate.txt"><button>設定ファイルをダウンロード</button></a><br />
+<!--<button type="button" onclick="importConfig()">テキストボックスから設定を読み込み</button>-->
+設定ファイル取り込み:<input type="file" id="upfile" />
+</div>
+
+<script>
+//<![CDATA[
+document.getElementById('download').onclick = function() {
+	exportConfig() ;
+}
+document.getElementById('upfile').onchange = function() {
+	if(!window.FileReader) alert("このブラウザではサポートしません") ;
+	var file = this.files[0] ;
+	var reader = new FileReader() ;
+	reader.onload = function() {
+		document.getElementById('import-export').value = reader.result ;
+		importConfig();
+		changecss('oo-midashi')
+		changecss('naka-midashi')
+		changecss('ko-midashi')
+	}
+	reader.readAsText(file) ;
+}
+
+function exportConfig() {
+	var selects = document.getElementsByTagName('select');
+	var data = {}
+	for (var i = 0; i < selects.length; ++i) {
+		data[selects[i].id] = selects[i].value;
+	}
+	document.getElementById('import-export').value = JSON.stringify(data);
+	document.getElementById('download').href = "data:application/octet-stream,"+JSON.stringify(data) ;
+}
+	
+function importConfig() {
+	try {
+		var data = JSON.parse(document.getElementById('import-export').value);
+	} catch(err) { alert("正しい設定ファイルではないようです") ; return; }
+	for (var id in data) {
+		document.getElementById(id).value = data[id];
+	}
+}
+
+//]]>
+</script>
+
+<script>
+function changecss(hnSelect){
+//関数の定義
+var cssChange = function () {
+
+
+//ドロップダウンメニューからの値の取得
+this.hnSelect = hnSelect;
+
+switch (this.hnSelect){
+case "oo-midashi":
+	var fontTypeWeight = document.getElementById("oo-midashi-fonttypeweight").value;
+	var fontSize = document.getElementById("oo-midashi-fontsize").value;
+	var fontColor = document.getElementById("oo-midashi-fontcolor").value;
+	var lineType = document.getElementById("oo-midashi-linetype").value;
+	var lineColor = document.getElementById("oo-midashi-linecolor").value;
+	var lineWidth = document.getElementById("oo-midashi-linewidth").value;
+	var linePosition = document.getElementById("oo-midashi-lineposition").value;
+	var bgColor = document.getElementById("oo-midashi-bgcolor").value;
+	var textAlign = document.getElementById("oo-midashi-textalign").value;
+	var marginStart = document.getElementById("oo-midashi-marginstart").value;
+break;
+case "naka-midashi":
+	var fontTypeWeight = document.getElementById("naka-midashi-fonttypeweight").value;
+	var fontSize = document.getElementById("naka-midashi-fontsize").value;
+	var fontColor = document.getElementById("naka-midashi-fontcolor").value;
+	var lineType = document.getElementById("naka-midashi-linetype").value;
+	var lineColor = document.getElementById("naka-midashi-linecolor").value;
+	var lineWidth = document.getElementById("naka-midashi-linewidth").value;
+	var linePosition = document.getElementById("naka-midashi-lineposition").value;
+	var bgColor = document.getElementById("naka-midashi-bgcolor").value;
+	var textAlign = document.getElementById("naka-midashi-textalign").value;
+	var marginStart = document.getElementById("naka-midashi-marginstart").value;
+break;
+case "ko-midashi":
+	var fontTypeWeight = document.getElementById("ko-midashi-fonttypeweight").value;
+	var fontSize = document.getElementById("ko-midashi-fontsize").value;
+	var fontColor = document.getElementById("ko-midashi-fontcolor").value;
+	var lineType = document.getElementById("ko-midashi-linetype").value;
+	var lineColor = document.getElementById("ko-midashi-linecolor").value;
+	var lineWidth = document.getElementById("ko-midashi-linewidth").value;
+	var linePosition = document.getElementById("ko-midashi-lineposition").value;
+	var bgColor = document.getElementById("ko-midashi-bgcolor").value;
+	var textAlign = document.getElementById("ko-midashi-textalign").value;
+	var marginStart = document.getElementById("ko-midashi-marginstart").value;
+break;
+}
+
+//CSS変更を適用する場所の定義
+var csschangePlace = document.getElementById(hnSelect);
+//CSS・指定番号の表示用文字列収納用の配列の定義
+var cssArray = new Array();
+var specifiedNumArray = new Array();
+
+//fontTypeWeightのCSS適用
+	switch (fontTypeWeight){
+	case "normalmin":
+		csschangePlace.style.fontWeight="normal";
+		csschangePlace.style.fontFamily="serif-ja, serif";
+		cssArray.push('  font-weight: normal;');
+		cssArray.push('  font-family: serif-ja, serif;');
+		specifiedNumArray.push('書体：並字明朝（A1）');
+		break;
+	case "boldmin":
+		csschangePlace.style.fontWeight="bold";
+		csschangePlace.style.fontFamily="serif-ja, serif";
+		cssArray.push('  font-weight: bold;');
+		cssArray.push('  font-family: serif-ja, serif;');
+		specifiedNumArray.push('書体：太字明朝（A2）');
+		break;
+	case "normalgothic":
+		csschangePlace.style.fontWeight="normal";
+		csschangePlace.style.fontFamily="sans-serif-ja, sans-serif";
+		cssArray.push('  font-weight: normal;');
+		cssArray.push('  font-family: sans-serif-ja, sans-serif;');
+		specifiedNumArray.push('書体：並字ゴシック（A3）');
+		break;
+	case "boldgothic":
+		csschangePlace.style.fontWeight="bold";
+		csschangePlace.style.fontFamily="sans-serif-ja, sans-serif";
+		cssArray.push('  font-weight: bold;');
+		cssArray.push('  font-family: sans-serif-ja, sans-serif;');
+		specifiedNumArray.push('書体：太字ゴシック（A4）');
+		break;
+	}
+
+//フォントサイズのCSS適用
+	switch (fontSize){
+	case "font-090per":
+		csschangePlace.style.fontSize="90%";
+		cssArray.push('  font-size:  90%;');
+		specifiedNumArray.push('本文に対しての文字サイズ：90％（B1）');
+		break;
+	case "font-100per":
+		csschangePlace.style.fontSize="100%";
+		cssArray.push('  font-size:  100%;');
+		specifiedNumArray.push('本文に対しての文字サイズ：100％（B2）');
+		break;
+	case "font-110per":
+		csschangePlace.style.fontSize="110%";
+		cssArray.push('  font-size:  110%;');
+		specifiedNumArray.push('本文に対しての文字サイズ：110％（B3）');
+		break;
+	case "font-120per":
+		csschangePlace.style.fontSize="120%";
+		cssArray.push('  font-size:  120%;');
+		specifiedNumArray.push('本文に対しての文字サイズ：120％（B4）');
+		break;
+	case "font-130per":
+		csschangePlace.style.fontSize="130%";
+		cssArray.push('  font-size:  130%;');
+		specifiedNumArray.push('本文に対しての文字サイズ：130％（B5）');
+		break;
+	case "font-140per":
+		csschangePlace.style.fontSize="140%";
+		cssArray.push('  font-size:  140%;');
+		specifiedNumArray.push('本文に対しての文字サイズ：140％（B6）');
+		break;
+	case "font-150per":
+		csschangePlace.style.fontSize="150%";
+		cssArray.push('  font-size:  150%;');
+		specifiedNumArray.push('本文に対しての文字サイズ：150％（B7）');
+		break;
+	case "font-160per":
+		csschangePlace.style.fontSize="160%";
+		cssArray.push('  font-size:  160%;');
+		specifiedNumArray.push('本文に対しての文字サイズ：160％（B8）');
+		break;
+	case "font-170per":
+		csschangePlace.style.fontSize="170%";
+		cssArray.push('  font-size:  170%;');
+		specifiedNumArray.push('本文に対しての文字サイズ：170％（B9）');
+		break;
+	case "font-180per":
+		csschangePlace.style.fontSize="180%";
+		cssArray.push('  font-size:  180%;');
+		specifiedNumArray.push('本文に対しての文字サイズ：180％（B10）');
+		break;
+	case "font-190per":
+		csschangePlace.style.fontSize="190%";
+		cssArray.push('  font-size:  190%;');
+		specifiedNumArray.push('本文に対しての文字サイズ：190％（B11）');
+		break;
+	case "font-200per":
+		csschangePlace.style.fontSize="200%";
+		cssArray.push('  font-size:  200%;');
+		specifiedNumArray.push('本文に対しての文字サイズ：200％（B12）');
+		break;
+	case "font-250per":
+		csschangePlace.style.fontSize="250%";
+		cssArray.push('  font-size:  250%;');
+		specifiedNumArray.push('本文に対しての文字サイズ：250％（B13）');
+		break;
+	case "font-300per":
+		csschangePlace.style.fontSize="300%";
+		cssArray.push('  font-size:  300%;');
+		specifiedNumArray.push('本文に対しての文字サイズ：300％（B14）');
+		break;
+	}
+
+//文字色指定の適用
+	switch (fontColor){
+	case "color-none":
+		specifiedNumArray.push('文字色：指定なし（C1）');
+		break;
+	case "color-black":
+		csschangePlace.style.color="#000000";
+		cssArray.push('  color: #000000;');
+		specifiedNumArray.push('文字色：黒（C2）');
+		break;
+	case "color-dimgray":
+		csschangePlace.style.color="#696969";
+		cssArray.push('  color: #696969;');
+		specifiedNumArray.push('文字色：K59グレー（dimgray: #696969）（C3）');
+		break;
+	case "color-gray":
+		csschangePlace.style.color="#808080";
+		cssArray.push('  color: #808080;');
+		specifiedNumArray.push('文字色：K50グレー（gray: #808080）（C4）');
+		break;
+	case "color-darkgray":
+		csschangePlace.style.color="#a9a9a9";
+		cssArray.push('  color: #a9a9a9;');
+		specifiedNumArray.push('文字色：K34グレー（darkgray: #a9a9a9）（C5）');
+		break;
+	case "color-silver":
+		csschangePlace.style.color="#c0c0c0";
+		cssArray.push('  color: #c0c0c0;');
+		specifiedNumArray.push('文字色：K25グレー（silver: #c0c0c0）（C6）');
+		break;
+	case "color-gainsboro":
+		csschangePlace.style.color="#dcdcdc";
+		cssArray.push('  color: #dcdcdc;');
+		specifiedNumArray.push('文字色：K14グレー（gainsboro: #dcdcdc）（C7）');
+		break;
+	case "color-white":
+		csschangePlace.style.color="#ffffff";
+		cssArray.push('  color: #ffffff;');
+		specifiedNumArray.push('文字色：白（white: #ffffff）（C8）');
+		break;
+	case "color-red":
+		csschangePlace.style.color="#ff0000";
+		cssArray.push('  color: #ff0000;');
+		specifiedNumArray.push('文字色：赤（red: #ff0000）（C9）');
+		break;
+	case "color-blue":
+		csschangePlace.style.color="#0000ff";
+		cssArray.push('  color: #0000ff;');
+		specifiedNumArray.push('文字色：青（blue: #0000ff）（C10）');
+		break;
+	case "color-cyan":
+		csschangePlace.style.color="#00ffff";
+		cssArray.push('  color: #00ffff;');
+		specifiedNumArray.push('文字色：シアン（cyan: #00ffff）（C11）');
+		break;
+	case "color-magenta":
+		csschangePlace.style.color="#ff00ff";
+		cssArray.push('  color: #ff00ff;');
+		specifiedNumArray.push('文字色：マゼンタ（cyan: #ff00ff）（C12）');
+		break;
+	case "color-orangered":
+		csschangePlace.style.color="#ff4500";
+		cssArray.push('  color: #ff4500;');
+		specifiedNumArray.push('文字色：朱色（orangered: #ff4500）（C13）');
+		break;
+	}
+
+//罫線タイプ指定
+	switch (lineType){
+	case "none":
+		specifiedNumArray.push('罫線のタイプ：罫線なし（D1）');
+		break;
+	case "solid":
+		specifiedNumArray.push('罫線のタイプ：通常の罫線（D2）');
+		break;
+	case "double":
+		specifiedNumArray.push('罫線のタイプ：ダブル罫線（D3）');
+		break;
+	case "dashed":
+		specifiedNumArray.push('罫線のタイプ：破線（D4）');
+		break;
+	case "dotted":
+		specifiedNumArray.push('罫線のタイプ：点線（D5）');
+		break;
+	}
+
+//罫線カラー指定
+var lineColor;
+	switch (lineColor){
+	case "linecolor-none":
+		lineColor = "transparent";
+		specifiedNumArray.push('罫線の色：罫線なし（E1）');
+		break;
+	case "linecolor-black":
+		lineColor = "#000000";
+		specifiedNumArray.push('罫線の色：黒（E2）');
+		break;
+	case "linecolor-dimgray":
+		lineColor = "#696969";
+		specifiedNumArray.push('罫線の色：K59グレー（dimgray: #696969）（E3）');
+		break;
+	case "linecolor-gray":
+		lineColor = "#808080";
+		specifiedNumArray.push('罫線の色：K50グレー（gray: #808080）（E4）');
+		break;
+	case "linecolor-darkgray":
+		lineColor = "#a9a9a9";
+		specifiedNumArray.push('罫線の色：K34グレー（darkgray: #a9a9a9）（E5）');
+		break;
+	case "linecolor-silver":
+		lineColor = "#c0c0c0";
+		specifiedNumArray.push('罫線の色：K25グレー（silver: #c0c0c0）（E6）');
+		break;
+	case "linecolor-gainsboro":
+		lineColor = "#dcdcdc";
+		specifiedNumArray.push('罫線の色：K14グレー（gainsboro: #dcdcdc）（E7）');
+		break;
+	case "linecolor-white":
+		lineColor = "#ffffff";
+		specifiedNumArray.push('罫線の色：白（white: #ffffff）（E8）');
+		break;
+	case "linecolor-red":
+		lineColor = "#ff0000";
+		specifiedNumArray.push('罫線の色：赤（red: #ff0000）（E9）');
+		break;
+	case "linecolor-blue":
+		lineColor = "#0000ff";
+		specifiedNumArray.push('罫線の色：青（blue: #0000ff）（E10）');
+		break;
+	case "linecolor-cyan":
+		lineColor = "#00ffff";
+		specifiedNumArray.push('罫線の色：シアン（cyan: #00ffff）（E11）');
+		break;
+	case "linecolor-magenta":
+		lineColor = "#ff00ff";
+		specifiedNumArray.push('罫線の色：マゼンタ（cyan: #ff00ff）（E12）');
+		break;
+	case "linecolor-orangered":
+		lineColor = "#ff4500";
+		specifiedNumArray.push('罫線の色：朱色（orangered: #ff4500）（E13）');
+		break;
+	}
+
+//罫線の太さを指定
+var longSideLineWidth;
+var shortSideLineWidth;
+	switch (lineWidth){
+	case "linewidth-none":
+		specifiedNumArray.push('罫線の太さ：罫線なし（F1）');
+		break;
+	case "linewidth-L1S1":
+		longSideLineWidth = "1px";
+		shortSideLineWidth = "1px";
+		specifiedNumArray.push('罫線の太さ：1ピクセル（F2）');
+		break;
+	case "linewidth-L2S2":
+		longSideLineWidth = "2px";
+		shortSideLineWidth = "2px";
+		specifiedNumArray.push('罫線の太さ：2ピクセル（F3）');
+		break;
+	case "linewidth-L4S4":
+		longSideLineWidth = "4px";
+		shortSideLineWidth = "4px";
+		specifiedNumArray.push('罫線の太さ：4ピクセル（F4）');
+		break;
+	case "linewidth-L1S4":
+		longSideLineWidth = "1px";
+		shortSideLineWidth = "4px";
+		specifiedNumArray.push('罫線の太さ：長辺1ピクセル短辺4ピクセル（F5）');
+		break;
+	}
+
+//罫線位置指定の適用
+	switch (linePosition){
+	case "kposition-none":
+		specifiedNumArray.push('罫線の配置位置：罫線なし（G1）');
+		break;
+	case "kposition-TBLR":
+		csschangePlace.style.borderStyle=lineType + ' ' + lineType + ' ' + lineType + ' ' + lineType;
+		csschangePlace.style.borderWidth=shortSideLineWidth + ' ' + longSideLineWidth + ' ' + shortSideLineWidth + ' ' + longSideLineWidth;
+		csschangePlace.style.borderColor=lineColor;
+		cssArray.push('  border-style: ' + lineType + ' ' + lineType + ' ' + lineType + ' ' + lineType + ';');
+		cssArray.push('  border-width: ' + shortSideLineWidth + ' ' + longSideLineWidth + ' ' + shortSideLineWidth + ' ' + longSideLineWidth + ';');
+		cssArray.push('  border-color: ' + lineColor + ';');
+		specifiedNumArray.push('罫線の配置位置：文字の上下左右に罫線（G2）');
+		break;
+	case "kposition-TLR":
+		csschangePlace.style.borderStyle=lineType + ' ' + lineType + ' ' + 'none' + ' ' + lineType;
+		csschangePlace.style.borderWidth=shortSideLineWidth + ' ' + longSideLineWidth + ' ' + '0' + ' ' + longSideLineWidth;
+		csschangePlace.style.borderColor=lineColor;
+		cssArray.push('  border-style: ' + lineType + ' ' + lineType + ' ' + 'none' + ' ' + lineType + ';');
+		cssArray.push('  border-width: ' + shortSideLineWidth + ' ' + longSideLineWidth + ' ' + '0' + ' ' + longSideLineWidth + ';');
+		cssArray.push('  border-color: ' + lineColor + ';');
+		specifiedNumArray.push('罫線の配置位置：文字の上左右に罫線（G3）');
+		break;
+	case "kposition-LR":
+		csschangePlace.style.borderStyle='none' + ' ' + lineType + ' ' + 'none' + ' ' + lineType;
+		csschangePlace.style.borderWidth='0' + ' ' + shortSideLineWidth + ' ' + '0' + ' ' + shortSideLineWidth;
+		csschangePlace.style.borderColor=lineColor;
+		cssArray.push('  border-style: ' + 'none' + ' ' + lineType + ' ' + 'none' + ' ' + lineType + ';');
+		cssArray.push('  border-width: ' + '0' + ' ' + shortSideLineWidth + ' ' + '0' + ' ' + shortSideLineWidth + ';');
+		cssArray.push('  border-color: ' + lineColor + ';');
+		specifiedNumArray.push('罫線の配置位置：文字の左右に罫線（G4）');
+		break;
+	case "kposition-TB":
+		csschangePlace.style.borderStyle=lineType + ' ' + 'none' + ' ' + lineType + ' ' + 'none';
+		csschangePlace.style.borderWidth=longSideLineWidth + ' ' + '0' + ' ' + longSideLineWidth + ' ' + '0';
+		csschangePlace.style.borderColor=lineColor;
+		cssArray.push('  border-style: ' + lineType + ' ' + 'none' + ' ' + lineType + ' ' + 'none' + ';');
+		cssArray.push('  border-width: ' + longSideLineWidth + ' ' + '0' + ' ' + longSideLineWidth + ' ' + '0' + ';');
+		cssArray.push('  border-color: ' + lineColor + ';');
+		specifiedNumArray.push('罫線の配置位置：文字の上下に罫線（G5）');
+		break;
+	case "kposition-TL":
+		csschangePlace.style.borderStyle=lineType + ' ' + 'none' + ' ' + 'none' + ' ' + lineType;
+		csschangePlace.style.borderWidth=longSideLineWidth + ' ' + '0' + ' ' + '0' + ' ' + shortSideLineWidth;
+		csschangePlace.style.borderColor=lineColor;
+		cssArray.push('  border-style: ' + lineType + ' ' + 'none' + ' ' + 'none' + ' ' + lineType + ';');
+		cssArray.push('  border-width: ' + longSideLineWidth + ' ' + '0' + ' ' + '0' + ' ' + shortSideLineWidth + ';');
+		cssArray.push('  border-color: ' + lineColor + ';');
+		specifiedNumArray.push('罫線の配置位置：文字の上左に罫線（G6）');
+		break;
+	case "kposition-TR":
+		csschangePlace.style.borderStyle=lineType + ' ' + lineType + ' ' + 'none' + ' ' + 'none';
+		csschangePlace.style.borderWidth=shortSideLineWidth + ' ' + longSideLineWidth + ' ' + '0' + ' ' + '0';
+		csschangePlace.style.borderColor=lineColor;
+		cssArray.push('  border-style: ' + lineType + ' ' + lineType + ' ' + 'none' + ' ' + 'none' + ';');
+		cssArray.push('  border-width: ' + shortSideLineWidth + ' ' + longSideLineWidth + ' ' + '0' + ' ' + '0' + ';');
+		cssArray.push('  border-color: ' + lineColor + ';');
+		specifiedNumArray.push('罫線の配置位置：文字の上右に罫線（G7）');
+		break;
+	case "kposition-T":
+		csschangePlace.style.borderStyle=lineType + ' ' + 'none' + ' ' + 'none' + ' ' + 'none';
+		csschangePlace.style.borderWidth=longSideLineWidth + ' ' + '0' + ' ' + '0' + ' ' + '0';
+		csschangePlace.style.borderColor=lineColor;
+		cssArray.push('  border-style: ' + lineType + ' ' + 'none' + ' ' + 'none' + ' ' + 'none' + ';');
+		cssArray.push('  border-width: ' + longSideLineWidth + ' ' + '0' + ' ' + '0' + ' ' + '0' + ';');
+		cssArray.push('  border-color: ' + lineColor + ';');
+		specifiedNumArray.push('罫線の配置位置：文字の上に罫線（G8）');
+		break;
+	case "kposition-R":
+		csschangePlace.style.borderStyle='none' + ' ' + lineType + ' ' + 'none' + ' ' + 'none';
+		csschangePlace.style.borderWidth='0' + ' ' + longSideLineWidth + ' ' + '0' + ' ' + '0';
+		csschangePlace.style.borderColor=lineColor;
+		cssArray.push('  border-style: ' + 'none' + ' ' + lineType + ' ' + 'none' + ' ' + 'none' + ';');
+		cssArray.push('  border-width: ' + '0' + ' ' + longSideLineWidth + ' ' + '0' + ' ' + '0' + ';');
+		cssArray.push('  border-color: ' + lineColor + ';');
+		specifiedNumArray.push('罫線の配置位置：文字の右に罫線（G9）');
+		break;
+	case "kposition-L":
+		csschangePlace.style.borderStyle='none' + ' ' + 'none' + ' ' + 'none' + ' ' + lineType;
+		csschangePlace.style.borderWidth='0' + ' ' + '0' + ' ' + '0' + ' ' + shortSideLineWidth;
+		csschangePlace.style.borderColor=lineColor;
+		cssArray.push('  border-style: ' + 'none' + ' ' + 'none' + ' ' + 'none' + ' ' + lineType + ';');
+		cssArray.push('  border-width: ' + '0' + ' ' + '0' + ' ' + '0' + ' ' + shortSideLineWidth + ';');
+		cssArray.push('  border-color: ' + lineColor + ';');
+		specifiedNumArray.push('罫線の配置位置：文字の左に罫線（G10）');
+		break;
+	case "kposition-TBLR-round":
+		csschangePlace.style.borderStyle=lineType + ' ' + lineType + ' ' + lineType + ' ' + lineType;
+		csschangePlace.style.borderWidth=longSideLineWidth + ' ' + shortSideLineWidth + ' ' + longSideLineWidth + ' ' + shortSideLineWidth;
+		csschangePlace.style.borderColor=lineColor;
+		csschangePlace.style.borderRadius="0.5em";
+		cssArray.push('  border-style: ' + lineType + ' ' + lineType + ' ' + lineType + ' ' + lineType + ';');
+		cssArray.push('  border-width: ' + longSideLineWidth + ' ' + shortSideLineWidth + ' ' + longSideLineWidth + ' ' + shortSideLineWidth + ';');
+		cssArray.push('  border-color: ' + lineColor + ';');
+		cssArray.push('  border-radius:  0.5em;');
+		specifiedNumArray.push('罫線の配置位置：文字の上下左右に角丸罫線（G11）');
+		break;
+	case "kposition-TR-round":
+		csschangePlace.style.borderStyle=lineType + ' ' + lineType + ' ' + 'none' + ' ' + 'none';
+		csschangePlace.style.borderWidth=shortSideLineWidth + ' ' + longSideLineWidth + ' ' + '0' + ' ' + '0';
+		csschangePlace.style.borderColor=lineColor;
+		csschangePlace.style.borderTopRightRadius="0.5em";
+		cssArray.push('  border-style: ' + lineType + ' ' + lineType + ' ' + 'none' + ' ' + 'none' + ';');
+		cssArray.push('  border-width: ' + shortSideLineWidth + ' ' + longSideLineWidth + ' ' + '0' + ' ' + '0' + ';');
+		cssArray.push('  border-color: ' + lineColor + ';');
+		cssArray.push('  border-top-right-radius:  0.5em;');
+		specifiedNumArray.push('罫線の配置位置：文字の上右に角丸罫線（G12）');
+		break;
+	}
+
+//背景カラー適用
+	switch (bgColor){
+	case "bgcolor-transparent":
+		csschangePlace.style.backgroundColor="transparent";
+		specifiedNumArray.push('背景色：背景色なし（H1）');
+		break;
+	case "bgcolor-black":
+		csschangePlace.style.backgroundColor="#000000";
+		cssArray.push('  background-color: #000000;');
+		specifiedNumArray.push('背景色：黒（H2）');
+		break;
+	case "bgcolor-dimgray":
+		csschangePlace.style.backgroundColor="#696969";
+		cssArray.push('  background-color: #696969;');
+		specifiedNumArray.push('背景色：K59グレー（dimgray: #696969）（H3）');
+		break;
+	case "bgcolor-gray":
+		csschangePlace.style.backgroundColor="#808080";
+		cssArray.push('  background-color: #808080;');
+		specifiedNumArray.push('背景色：K50グレー（gray: #808080）（H4）');
+		break;
+	case "bgcolor-darkgray":
+		csschangePlace.style.backgroundColor="#a9a9a9";
+		cssArray.push('  background-color: #a9a9a9;');
+		specifiedNumArray.push('背景色：K34グレー（darkgray: #a9a9a9）（H5）');
+		break;
+	case "bgcolor-silver":
+		csschangePlace.style.backgroundColor="#c0c0c0";
+		cssArray.push('  background-color: #c0c0c0;');
+		specifiedNumArray.push('背景色：K25グレー（silver: #c0c0c0）（H6）');
+		break;
+	case "bgcolor-gainsboro":
+		csschangePlace.style.backgroundColor="#dcdcdc";
+		cssArray.push('  background-color: #dcdcdc;');
+		specifiedNumArray.push('背景色：K14グレー（gainsboro: #dcdcdc）（H7）');
+		break;
+	case "bgcolor-white":
+		csschangePlace.style.backgroundColor="#ffffff";
+		cssArray.push('  background-color: #ffffff;');
+		specifiedNumArray.push('背景色：白（white: #ffffff）（H8）');
+		break;
+	case "bgcolor-red":
+		csschangePlace.style.backgroundColor="#ff0000";
+		cssArray.push('  background-color: #ff0000;');
+		specifiedNumArray.push('背景色：赤（red: #ff0000）（H9）');
+		break;
+	case "bgcolor-blue":
+		csschangePlace.style.backgroundColor="#0000ff";
+		cssArray.push('  background-color: #0000ff;');
+		specifiedNumArray.push('背景色：青（blue: #0000ff）（H10）');
+		break;
+	case "bgcolor-cyan":
+		csschangePlace.style.backgroundColor="#00ffff";
+		cssArray.push('  background-color: #00ffff;');
+		specifiedNumArray.push('背景色：シアン（cyan: #00ffff）（H11）');
+		break;
+	case "bgcolor-magenta":
+		csschangePlace.style.backgroundColor="#ff00ff";
+		cssArray.push('  background-color: #ff00ff;');
+		specifiedNumArray.push('背景色：マゼンタ（cyan: #ff00ff）（H12）');
+		break;
+	case "bgcolor-orangered":
+		csschangePlace.style.backgroundColor="#ff4500";
+		cssArray.push('  background-color: #ff4500;');
+		specifiedNumArray.push('背景色：朱色（orangered: #ff4500）（H13）');
+		break;
+	}
+
+//行揃え指定
+	switch (textAlign){
+	case "textalign-none":
+		specifiedNumArray.push('行揃え：指定なし（I1）');
+		break;
+	case "textalign-justify":
+		csschangePlace.style.textAlign="justify";
+		cssArray.push('  text-align: justify;');
+		specifiedNumArray.push('行揃え：均等揃え（I2）');
+		break;
+	case "textalign-alignleft":
+		csschangePlace.style.textAlign="left";
+		cssArray.push('  text-align: left;');
+		specifiedNumArray.push('行揃え：上揃え（I3）');
+		break;
+	case "textalign-aligncenter":
+		csschangePlace.style.textAlign="center";
+		cssArray.push('  text-align: center;');
+		specifiedNumArray.push('行揃え：中央揃え（I4）');
+		break;
+	case "textalign-alignright":
+		csschangePlace.style.textAlign="right";
+		cssArray.push('  text-align: right;');
+		specifiedNumArray.push('行揃え：下揃え（I5）');
+		break;
+	}
+
+//行頭字下げ指定
+	switch (marginStart){
+	case "marginstart-none":
+		specifiedNumArray.push('行頭字下げ：行頭字下げなし（J1）');
+		break;
+	case "marginstart-1em":
+		csschangePlace.style.marginTop="1em";
+		cssArray.push('  margin-top: 1em;');
+		specifiedNumArray.push('行頭字下げ：行頭1字下げ（J2）');
+		break;
+	case "marginstart-2em":
+		csschangePlace.style.marginTop="2em";
+		cssArray.push('  margin-top: 2em;');
+		specifiedNumArray.push('行頭字下げ：行頭2字下げ（J3）');
+		break;
+	case "marginstart-3em":
+		csschangePlace.style.marginTop="3em";
+		cssArray.push('  margin-top: 3em;');
+		specifiedNumArray.push('行頭字下げ：行頭3字下げ（J4）');
+		break;
+	case "marginstart-4em":
+		csschangePlace.style.marginTop="4em";
+		cssArray.push('  margin-top: 4em;');
+		specifiedNumArray.push('行頭字下げ：行頭4字下げ（J5）');
+		break;
+	case "marginstart-5em":
+		csschangePlace.style.marginTop="5em";
+		cssArray.push('  margin-top: 5em;');
+		specifiedNumArray.push('行頭字下げ：行頭5字下げ（J6）');
+		break;
+	}
+
+if ((bgColor === "bgcolor-transparent") &amp;&amp; (lineType === "none")) {
+		csschangePlace.style.padding="0em";
+} else { 
+		csschangePlace.style.padding="0.5em";
+		cssArray.push('  padding:  0.5em;');
+}
+
+//CSS・指定番号の表示
+var joinedCssString = cssArray.join('&lt;br /&gt;');
+var joinedSpecifiedNumString = specifiedNumArray.join('&lt;br /&gt;');
+joinedSpecifiedNumString = '&lt;span&gt;' + joinedSpecifiedNumString + '&lt;/span&gt;';
+
+	switch (hnSelect){
+	case "oo-midashi":
+		var finalSpecifiedNumString = '&lt;p&gt;&lt;span class="bold"&gt;大見出しの指定内容（v1.0）：&lt;/span&gt;&lt;br /&gt;' + joinedSpecifiedNumString + '&lt;br /&gt;&lt;/p&gt;';
+		var finalCssString = '&lt;p&gt;/* 大見出しのCSS定義 */&lt;br /&gt;' + '.vrtl h2.oo-midashi {&lt;br /&gt;' + joinedCssString + '&lt;br /&gt;}&lt;/p&gt;';
+		document.getElementById("oo-midashi-specifiednum").innerHTML = finalSpecifiedNumString;
+		document.getElementById("oo-midashi-css").innerHTML = finalCssString;
+		break;
+	case "naka-midashi":
+		var finalSpecifiedNumString = '&lt;p&gt;&lt;span class="bold"&gt;中見出しの指定内容（v1.0）：&lt;/span&gt;&lt;br /&gt;' + joinedSpecifiedNumString + '&lt;br /&gt;&lt;/p&gt;';
+		var finalCssString = '&lt;p&gt;/* 中見出しのCSS定義 */&lt;br /&gt;' + '.vrtl h3.naka-midashi {&lt;br /&gt;' + joinedCssString + '&lt;br /&gt;}&lt;/p&gt;';
+		document.getElementById("naka-midashi-specifiednum").innerHTML = finalSpecifiedNumString;
+		document.getElementById("naka-midashi-css").innerHTML = finalCssString;
+		break;
+	case "ko-midashi":
+		var finalSpecifiedNumString = '&lt;p&gt;&lt;span class="bold"&gt;小見出しの指定内容（v1.0）：&lt;/span&gt;&lt;br /&gt;' + joinedSpecifiedNumString + '&lt;br /&gt;&lt;/p&gt;';
+		var finalCssString = '&lt;p&gt;/* 小見出しのCSS定義 */&lt;br /&gt;' + '.vrtl h4.ko-midashi {&lt;br /&gt;' + joinedCssString + '&lt;br /&gt;}&lt;/p&gt;';
+		document.getElementById("ko-midashi-specifiednum").innerHTML = finalSpecifiedNumString;
+		document.getElementById("ko-midashi-css").innerHTML = finalCssString;
+		break;
+	}
+}
+//引数渡して関数を実行
+var thisCssChange = new cssChange();
+}
+
+</script>
+<hr />
+<div class="small">
+<p>Copyright 2016 densholab<br />Apache License Version 2.0（「本ライセンス」）に基づいてライセンスされます。あなたがこのファイルを使用するためには、本ライセンスに従わなければなりません。本ライセンスのコピーは下記の場所から入手できます。 <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a> 適用される法律または書面での同意によって命じられない限り、本ライセンスに基づいて頒布されるソフトウェアは、明示黙示を問わず、いかなる保証も条件もなしに「現状のまま」頒布されます。本ライセンスでの権利と制限を規定した文言については、本ライセンスを参照してください。</p>
+<p>以上のライセンスに基づき、再配布等はご自由に行っていただいて構いません。また、ユーザーの混乱を避ける観点から、内容を改変して再配布する場合には<span class="bold">「電書ラボ制作仕様見出しテンプレート」</span>の名称を変更して配布していただけますようお願いいたします。</p>
+</div>
+</body>
+</html>
