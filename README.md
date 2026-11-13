@@ -2,17 +2,17 @@
 
 **研究発表**
 
-[研究発表](https://drive.google.com/open?id=19-2FX0U9XDr5UexRNxf6xjyDxfaAyc5I&usp=drive_fs "研究発表.zip")
+[研究発表データダウンロード](https://www.dropbox.com/scl/fi/jjkm0ihj0w5x9pqajzqjz/.zip?rlkey=qegp5zgayeen3r1mw4blcssx8&dl=0 "研究発表.zip")
 
-[電書ラボ制作仕様見出しテンプレート（横）](https://drive.google.com/open?id=1JMmmiM-RI0-mO2Ij2OdvcKVmU8_JQRtx&usp=drive_fs "電書ラボ制作仕様見出しテンプレート（横）")
+[電書ラボ制作仕様見出しテンプレート（横）](https://www.dropbox.com/scl/fi/qvqc4m2a4aevf7y6ipc4f/v1.0.xhtml?rlkey=slnqpjekezbcou29whl84l8y4&dl=0 "電書ラボ制作仕様見出しテンプレート（横）")
 
-[電書ラボ制作仕様見出しテンプレート（縦）](https://drive.google.com/open?id=12Ap14wQdJmdtllMRGZHCf8j7mQ_kI8bl&usp=drive_fs "電書ラボ制作仕様見出しテンプレート（縦）")
+[電書ラボ制作仕様見出しテンプレート（縦）](https://www.dropbox.com/scl/fi/drk4aswks2r0a7o33eysv/v1.0.xhtml?rlkey=ojgpsg8vxmadc6rzqvj3o5n0e&dl=0 "電書ラボ制作仕様見出しテンプレート（縦）")
 
 ※見出しテンプレートは自分が使うので別にリンクを置いておく
 
 **資料保存庫**
 
-[資料保存庫](https://drive.google.com/open?id=1CSg-uscgaMpXE3Mpn_imlvSckpfsFw9O&usp=drive_fs "資料保存庫.zip")
+[資料保存庫データダウンロード](https://www.dropbox.com/scl/fi/4maacxyojmznlr3tir0qk/.zip?rlkey=vy9kjd75n62oedmdrdx1z3f5w&dl=0 "資料保存庫.zip")
 
 
 
